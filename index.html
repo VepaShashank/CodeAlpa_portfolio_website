@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="https://kit.fontawesome.com/b255c0d8fb.js" crossorigin="anonymous"></script>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1>Hi, I'm <span>Shashank Vepa</span><br>Welcome to my Portfolio</h1>
+            </div>
+        </div>
+    </div>
+<!-------------about--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Welcome to my portfolio website! I'm a dedicated student with a passion for software engineering. Throughout my academic journey, I have consistently pursued excellence and embraced opportunities to expand my knowledge and skills. I thrive in collaborative environments and value the power of teamwork in achieving shared goals. Beyond my studies, I enjoy Web Development that fuel my creativity and provide a well-rounded perspective. Feel free to explore my portfolio and connect with me to discuss any potential collaborations or opportunities.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Android app building</li>
+                    <li><span> Python</span></li>
+                    <li><span> C</span></li>
+                </ul>
+            </div><div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023 July - Current</span><br>Web Development Internship at CodeAlpha</li>
+                    <li><span>2023 June - Current</span><br>Web Development Internship at Teachnook</li>
+                    <li><span>2023 January - 2023 May </span><br>Android app Development Training ai UnSchool</li>
+                    <li><span>2022 August - 2022 November</span><br>Artificial Intelligence Training at Microsoft Azure Fundamentals</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2021-2025</span><br>Bachelor of Technology(CSE) from SR University</li>
+                    <li><span>2019-2021</span><br>Intermediate from Sri Chaitanya jr.Clg</li>
+                    <li><span>2019</span><br>High School from Sri Chaitanya Olympiad</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------Services--------------->
+<div class="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="sevices-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>AiMl</h2>
+                <p>Developed a fashion-MNIST</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>App Design</h2>
+                <p>Developed a Basic Notes App</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Developed a Library App</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------Portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Fashion MNIST</h3>
+                    <p>This allows it's user to Identify a fashion product by
+                        uploading an Image. It uses Image processing to 
+                        get HOG features to identify the shape of the 
+                        product and CVRT to identify colour of the product 
+                        and group the products into the respected catogories 
+                        by using machine learning algorithm
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3>Basic Notes App</h3>
+                    <p>The Basic Notes Android app simplifies note-taking with 
+                        an intuitive interface, powerful search. 
+                        Stay organized, capture ideas effortlessly, and find 
+                        information quickly. Experience productivity in a 
+                        clutter-free environment with its minimalistic design. 
+                        Download Basic Notes and unleash your productivity.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png">
+                <div class="layer">
+                    <h3>Online Library/Book Reading App</h3>
+                    <p>Discover the world of books with my Online Library/Book Reading app.
+                        Immerse yourself in a vast collection of genres, personalized recommendations.
+                        Customize your reading experience and join a vibrant reading community. 
+                        Experience the joy of reading wherever you go.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-----------Contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">                               
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shashankvepa007@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>+91 9491510833</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/shashank.vepa.9?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/VepaShashank?t=QBpWQhdQwNaXimqiMDemYg&s=09"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://instagram.com/im__shashank_?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shashank-vepa-1a32b625a"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/Shashank's Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Meaasage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright SV</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+</script>
+
+
+</body>
+</html>
